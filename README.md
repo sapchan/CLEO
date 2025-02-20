@@ -18,7 +18,6 @@ We leverage a frozen CLAP audio feature extractor model to extract audio feature
 Please ensure the following dependences are present prior to execution training scripts:
 - The Llama-2-7b-hf model is placed within the models folder
 - All of the data from [here](https://drive.google.com/drive/folders/1IOJK9t-DTel4gUKr1ff4Y4w-7kz8BFkP?usp=drive_link) and place the contents in the data folder
-- 
 
 To train the CLEO model architecture E2E, please follow the following steps:
 1. Execute the command: `python create_model_training_dataset.py`
